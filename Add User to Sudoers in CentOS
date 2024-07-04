@@ -1,0 +1,8 @@
+usermod -aG wheel username
+
+# manually adding in /etc/sudoers
+visudo
+# username  ALL=(ALL) NOPASSWD:ALL
+
+# more maintainable
+echo "username  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/username
