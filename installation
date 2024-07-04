@@ -1,0 +1,13 @@
+#installation
+physical hardware: own laptop
+os: centos on top of virtual box
+centos config
+    user:root
+    software selection
+        basic:server
+        additions : rpm, basic development, system tools
+    timezone : Asia/Kolkata
+
+
+
+        
